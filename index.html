@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio</title>
+</head>
+<body class="px-10 pt-5 bg-black text-white">
+    <!-- Header start -->
+    <nav class="container mx-auto p-5 flex justify-between items-center flex-wrap">
+        <div class="w-10 h-10"><img src="https://i.ibb.co.com/cyZ85Lk/logo.webp" alt="logo" border="0"></div>
+        <div class="hidden md:flex items-center space-x-6">
+            <a href="#" class="hover:text-yellow-500">Home</a>
+            <a href="#" class="hover:text-yellow-500">About Me</a>
+            <a href="#" class="hover:text-yellow-500">Projects</a>
+            <a href="#" class="hover:text-yellow-500">Testimonials</a>
+            <a href="#" class="bg-yellow-500 text-black px-6 py-2 rounded hover:bg-yellow-400">Download CV</a>
+        </div>
+        <button class="md:hidden" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden container mx-auto px-5 pb-5">
+        <a href="#" class="block py-2 hover:text-yellow-500">Home</a>
+        <a href="#" class="block py-2 hover:text-yellow-500">About Me</a>
+        <a href="#" class="block py-2 hover:text-yellow-500">Projects</a>
+        <a href="#" class="block py-2 hover:text-yellow-500">Testimonials</a>
+        <a href="#" class="inline-block bg-yellow-500 text-black px-6 py-2 rounded hover:bg-yellow-400 mt-2">Download CV</a>
+    </div>
+
+    <!-- Banner -->
+    <section class="container mx-auto px-5 py-10">
+        <div class="flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 space-y-6">
+                <p class="text-gray-400">Competitive Programmer</p>
+                <h1 class="text-4xl md:text-5xl font-bold">
+                    HI! THIS IS<br>
+                    <span class="text-yellow-500">MD IMAM HASAN</span>
+                </h1>
+                <p class="text-gray-300 max-w-lg">
+                    I am a passionate competitive programmer with expertise in solving complex algorithmic problems under time constraints. With strong skills in algorithms, data structures, and mathematical problem-solving, I thrive on challenges and continuously improve by participating in coding contests and tackling diverse problems.                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#" class="bg-yellow-500 text-black px-6 py-3 rounded hover:bg-yellow-400">Let's Connect</a>
+                    <a href="#" class="border border-yellow-500 text-yellow-500 px-6 py-3 rounded hover:bg-yellow-500 hover:text-black flex items-center">
+                        View Portfolios →
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-10 md:mt-0">
+                <img src="https://i.ibb.co.com/vkxzT2R/text.png" alt="MY-PROTFOLIO" border="0" class="w-full max-w-lg mx-auto">
+            </div>
+        </div>
+    </section>
+    <!-- Banner end -->
+
+    <!-- Specialities -->
+    <section class="container mx-auto px-5 py-20">
+        <h2 class="text-3xl font-bold text-center mb-2">MY SPECIALITIES</h2>
+        <p class="text-gray-400 text-center mb-12">As a web developer with four years of experience, I specialize in creating visually appealing and user-friendly websites.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <img src="https://i.ibb.co.com/N91T8xq/i1.png" alt="Frontend" class="w-12 h-12 mb-4 flex mx-auto">
+                <h3 class="text-xl font-bold mb-2">Front End Development</h3>
+                <p class="text-gray-400">Expert in creating responsive and user-friendly interfaces using modern web technologies.</p>
+            </div>
+
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <img src="https://i.ibb.co.com/Z6dGcms/i2.png" alt="Backend" class="w-12 h-12 mb-4 flex mx-auto">
+                <h3 class="text-xl font-bold mb-2">Back End Development</h3>
+                <p class="text-gray-400">Proficient in server-side programming and database management.</p>
+            </div>
+
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <img src="https://i.ibb.co.com/vZs3L9B/i3.png" alt="Full Stack" class="w-12 h-12 mb-4 flex mx-auto">
+                <h3 class="text-xl font-bold mb-2">Full Stack Development</h3>
+                <p class="text-gray-400">Comprehensive development solutions from frontend to backend.</p>
+            </div>
+
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <img src="https://i.ibb.co.com/8PN94NZ/i4.png" alt="Security" class="w-12 h-12 mb-4 flex mx-auto">
+                <h3 class="text-xl font-bold mb-2">Web Application Security</h3>
+                <p class="text-gray-400">Implementing robust security measures for web applications.</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <img src="https://i.ibb.co.com/JKdKPYm/i5.png" alt="E-commerce" class="w-12 h-12 mb-4 flex mx-auto">
+                <h3 class="text-xl font-bold mb-2">E-commerce Development</h3>
+                <p class="text-gray-400">Building secure and scalable online shopping platforms.</p>
+            </div>
+
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <img src="https://i.ibb.co.com/LCKz4Wn/i6.png" alt="Cloud" class="w-12 h-12 mb-4 flex mx-auto">
+                <h3 class="text-xl font-bold mb-2">Cloud Based Development</h3>
+                <p class="text-gray-400">Developing and deploying applications on cloud platforms.</p>
+            </div>
+
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <img src="https://i.ibb.co.com/fXtpRdV/i7.png" alt="Progressive" class="w-12 h-12 mb-4 flex mx-auto">
+                <h3 class="text-xl font-bold mb-2">Progressive Web Apps</h3>
+                <p class="text-gray-400">Creating modern, fast, and responsive web applications.</p>
+            </div>
+
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <img src="https://i.ibb.co.com/34N4Wyn/i8.png" alt="AI" class="w-12 h-12 mb-4 flex mx-auto">
+                <h3 class="text-xl font-bold mb-2">AI-Powered Development</h3>
+                <p class="text-gray-400">Integrating AI capabilities into web applications.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Specialities end -->
+
+    <!-- Recent Works start -->
+    <section class="container mx-auto px-5 py-20">
+        <h2 class="text-3xl font-bold text-center mb-2">MY RECENT WORKS</h2>
+        <p class="text-gray-400 text-center mb-12">As a web developer, I've worked on a variety of projects from e-commerce to enterprise-level web applications. My expertise includes responsive design.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-zinc-900 rounded-lg overflow-hidden">
+                <img src="https://i.ibb.co.com/wSbKBRd/computer-eng.jpg" alt="project2" alt="Project 1" class="w-full h-48 object-cover">
+            </div>
+            <div class="bg-zinc-900 rounded-lg overflow-hidden">
+                <img src="https://i.ibb.co.com/wSbKBRd/computer-eng.jpg" alt="Project 2" class="w-full h-48 object-cover">
+            </div>
+            <div class="bg-zinc-900 rounded-lg overflow-hidden">
+                <img src="https://i.ibb.co.com/wSbKBRd/computer-eng.jpg" alt="project2" alt="Project 3" class="w-full h-48 object-cover">
+            </div>
+            <div class="bg-zinc-900 rounded-lg overflow-hidden">
+                <img src="https://i.ibb.co.com/wSbKBRd/computer-eng.jpg" alt="Project 4" class="w-full h-48 object-cover">
+            </div>
+            <div class="bg-zinc-900 rounded-lg overflow-hidden">
+                <img src="https://i.ibb.co.com/wSbKBRd/computer-eng.jpg" alt="project2" alt="Project 5" class="w-full h-48 object-cover">
+            </div>
+            <div class="bg-zinc-900 rounded-lg overflow-hidden">
+                <img src="https://i.ibb.co.com/wSbKBRd/computer-eng.jpg" alt="Project 6" class="w-full h-48 object-cover">
+            </div>
+        </div>
+    </section>
+    <!-- Recent Works end -->
+
+    <!-- Other Services -->
+    <section class="container mx-auto px-5 py-20">
+        <h2 class="text-3xl font-bold text-center mb-2">MY OTHER SERVICES</h2>
+        <p class="text-gray-400 text-center mb-12">As a web developer, I offer a comprehensive range of services including web design, development, and optimization.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex mx-auto gap-8">
+            <div class="bg-zinc-900 p-6 text-center rounded-lg">
+                <h3 class="text-xl font-bold mb-2">Website Development</h3>
+                <p class="text-gray-400">Website development is the process of building and maintaining websites. It encompasses several aspects, including web design, web content development, client-side/server-side scripting, network security configuration.</p>
+            </div>
+
+            <div class="bg-zinc-900 p-6 text-center rounded-lg">
+                <h3 class="text-xl font-bold mb-2">E-Commerce Development</h3>
+                <p class="text-gray-400">Building secure and scalable online shopping platforms.A popular and beginner-friendly platform for businesses of all sizes, offering ease of use, templates, and app integrations.</p>
+            </div>
+
+            <div class="bg-zinc-900 p-6 text-center rounded-lg">
+                <h3 class="text-xl font-bold mb-2">App Development</h3>
+                <p class="text-gray-400">App development is the process of creating software applications for mobile or desktop platforms. It involves design, coding, testing, and deployment to meet user needs.</p>
+            </div>
+
+            <div class="bg-zinc-900 p-6 text-center rounded-lg">
+                <h3 class="text-xl font-bold mb-2">API Dev & Integration</h3>
+                <p class="text-gray-400">API development and integration involve creating and connecting systems via APIs to enable seamless data exchange. It includes building RESTful APIs, handling authentication, and integrating third-party services.</p>
+            </div>
+
+            <div class="bg-zinc-900 p-6 text-center rounded-lg">
+                <h3 class="text-xl font-bold mb-2">Cloud Based Solutions</h3>
+                <p class="text-gray-400">Cloud-based solutions involve using remote servers for data storage, computing, and software services. They offer scalability, flexibility, and cost-efficiency for businesses.</p>
+            </div>
+
+            <div class="bg-zinc-900 p-9 text-center rounded-lg">
+                <h3 class="text-xl font-bold mb-2">Website Maint. & Support</h3>
+                <p class="text-gray-400">Website maintenance and support involve regular updates, bug fixes, performance optimization, security checks, and ensuring smooth functionality to keep websites running efficiently.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="container mx-auto px-5 py-20">
+        <h2 class="text-3xl font-bold text-center mb-12">FREQUENTLY ASKED QUESTIONS</h2>
+        
+        <div class="space-y-4 max-w-3xl mx-auto">
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <button class="flex justify-between items-center w-full text-left">
+                    <span class="font-bold">WHAT AREAS OF WEB DEVELOPMENT DO YOU FOCUS ON?</span>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <button class="flex justify-between items-center w-full text-left">
+                    <span class="font-bold">HOW CAN I SCHEDULE A WEB DEVELOPMENT CONSULTATION WITH YOU?</span>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <button class="flex justify-between items-center w-full text-left">
+                    <span class="font-bold">CAN I CHOOSE A SPECIFIC PLATFORM FOR MY WEBSITE?</span>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="bg-zinc-900 p-6 rounded-lg">
+                <button class="flex justify-between items-center w-full text-left">
+                    <span class="font-bold">WHAT TOOLS AND TECHNOLOGIES DO YOU USE FOR WEB DEVELOPMENT?</span>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section end-->
+
+    <!-- Footer start -->
+    <footer class="container mx-auto px-5 py-10 border-t border-zinc-800">
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+            <div>
+                <h3 class="font-bold mb-4">SOLUTIONS</h3>
+                <ul class="space-y-2 text-gray-400">
+                    <li>FLUXWAY</li>
+                    <li>FABLES</li>
+                    <li>POWERCORE</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-bold mb-4">CUSTOMERS</h3>
+                <ul class="space-y-2 text-gray-400">
+                    <li>FLUXWAY</li>
+                    <li>FABLES</li>
+                    <li>POWERCORE</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-bold mb-4">PARTNERS</h3>
+                <ul class="space-y-2 text-gray-400">
+                    <li>FLUXWAY</li>
+                    <li>FABLES</li>
+                    <li>POWERCORE</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-bold mb-4">STAKEHOLDERS</h3>
+                <ul class="space-y-2 text-gray-400">
+                    <li>FLUXWAY</li>
+                    <li>FABLES</li>
+                    <li>POWERCORE</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="font-bold mb-4">OFFERINGS</h3>
+                <ul class="space-y-2 text-gray-400">
+                    <li>VISION</li>
+                    <li>GATHERINGS</li>
+                    <li>BIZPRIME</li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-10 pt-8 border-t border-zinc-800 flex justify-between text-sm text-gray-400">
+            <div class="flex space-x-4">
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div>© 2024 All rights reserved</div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+</body>
+</html>
